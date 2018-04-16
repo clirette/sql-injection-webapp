@@ -15,7 +15,7 @@
 		$host = "localhost";
 		$db = "hardware_store";
 		$user = "root";
-		$pwd = "mysqlt00r";
+		$pwd = "ch@ng3dt00r";
 		$link = new mysqli($host, $user, $pwd, $db);
 		if ($link->connect_error) {
 			die("Connection failed: " . $link->connect_error);
@@ -30,18 +30,18 @@
 		{
 			echo '<table class="table table-striped table-bordered table-hover">'; 
 			echo "<tr><th>Name</th><th>Description</th><th>Cost</th><th>Availability</th></tr>"; 
-			while($row = mysqli_fetch_array($results))
-			{
-			  echo "<tr><td>"; 
-			  echo $row['name'];
-			  echo "</td><td>";   
-			  echo $row['description'];
-			  echo "</td><td>";
-			  echo $row['price'];
-			  echo "</td><td>";    
-			  echo $row['availability'];
-			  echo "</td></tr>";  
-			}
+			// while($row = mysqli_fetch_array($results))
+			// {
+			//   echo "<tr><td>"; 
+			//   echo $row['name'];
+			//   echo "</td><td>";   
+			//   echo $row['description'];
+			//   echo "</td><td>";
+			//   echo $row['price'];
+			//   echo "</td><td>";    
+			//   echo $row['availability'];
+			//   echo "</td></tr>";  
+			// }
 			echo "</table>"; 
 		}
 	}	

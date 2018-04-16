@@ -15,7 +15,7 @@
 		$host = "localhost";
 		$db = "hardware_store";
 		$user = "root";
-		$pwd = "mysqlt00r";
+		$pwd = "ch@ng3dt00r";
 		$link = new mysqli($host, $user, $pwd, $db);
 		if ($link->connect_error) {
 			die("Connection failed: " . $link->connect_error);
